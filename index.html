@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/timer.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/modaal.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-top">
+                <div class="header-logo" onclick="window.location.href= '/';">
+                    <img src="img/logo.png" alt="Логотип" class="header-logo__img">
+                    <div class="header-logo__text">
+                        <p class="header-logo__title">Milena</p>
+                        <p class="header-logo__desc">Духовное наставничество</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="header-links">
+                        <p class="header-links__text">Пишите мне</p>
+                        <a href="" class="header-links__link"><img src="img/instagram.svg" alt="Инстаграм"
+                                class="header-links__img"></a>
+                        <a href="" class="header-links__link"><img src="img/telegram.svg" alt="Телеграм"
+                                class="header-links__img"></a>
+                    </div>
+                    <button class="header-btn btn inline">Обратная связь</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="wrapper">
+                <nav>
+                    <ul class="header-nav">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Главная</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Преимущества</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Обо мне</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Консультация</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Что Вы получите?</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Отзывы</a></li>
+                        <img src="img/line.svg" alt="Линия" class="header-line">
+                        <li class="header-nav__item"><a href="" class="header-nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main page" data-speed="0.5">
+            <div class="wrapper">
+                <div class="main-content">
+                    <div class="main-item">
+                        <p class="main-title title wow fadeIn" data-wow-duration="1.5s">Консультация <span>с помощью
+                                ясновидения</span></p>
+                        <p class="main-desc wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">Получите ответы
+                            на все свои вопросы. Оставьте заявку и получите консультацию с помощью ясновидения.</p>
+                        <form action="send.php" method="POST" class="main-form wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="1s">
+                            <div class="form-top">
+                                <div class="timer">
+                                    <div class="timer__items">
+                                        <!-- <div class="timer__item timer__days">00</div> -->
+                                        <div class="timer__item timer__hours">00</div>
+                                        <div class="timer__item timer__minutes">00</div>
+                                        <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                </div>
+                                <p class="form-sale">скидка -35%</p>
+                            </div>
+                            <p class="form-text">Заполните форму ниже и получите скидку на консультацию</p>
+                            <input type="text" name="name" id="name" class="form-input inp" placeholder="Ваше имя" required>
+                            <input type="tel" name="phone" id="phone" class="form-input inp" placeholder="+38(___)___-__-__"
+                                required>
+                            <div class="form-bottom">
+                                <input type="submit" value="Отправить" class="form-btn btn">
+                                <p class="form-pol">Нажимая кнопку “Отправить” я даю согласие на обработку моих
+                                    персональных данных</p>
+                            </div>
+                        </form>
+                    </div>
+                    <img src="img/main.png" alt="Главная" class="main-img wow fadeIn" data-wow-duration="1.5s"
+                        data-wow-delay="1.5s">
+                </div>
+            </div>
+        </section>
+        <section class="preim">
+            <div class="wrapper">
+                <div class="preim-content wow fadeInUp" data-wow-duration="0.7s">
+                    <div class="preim-item">
+                        <img src="img/item-1.svg" alt="Преимущества" class="preim-img">
+                        <p class="preim-text">Индивидуальный подход</p>
+                    </div>
+                    <div class="preim-item">
+                        <img src="img/item-2.svg" alt="Преимущества" class="preim-img">
+                        <p class="preim-text">Лояльные цены</p>
+                    </div>
+                    <div class="preim-item">
+                        <img src="img/item-3.svg" alt="Преимущества" class="preim-img">
+                        <p class="preim-text">Большой опыт</p>
+                    </div>
+                    <div class="preim-item">
+                        <img src="img/item-4.svg" alt="Преимущества" class="preim-img">
+                        <p class="preim-text">Гарантия качества</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about page">
+            <div class="wrapper">
+                <div class="about-content">
+                    <img src="img/about.png" alt="Обо мне" class="about-img wow fadeIn" data-wow-duration="1.5s">
+                    <div class="about-item">
+                        <p class="about-title title wow fadeInUp" data-wow-duration="0.7s">Обо <span>мне</span></p>
+                        <div class="about-desc">
+                            <p class="wow fadeInUp" data-wow-duration="0.7s">Я - Милена и я, с радостью, отвечу на все
+                                твои вопросы.
+                                Консультация со мной - это не про астрологию, нумерология и т.д. Это не ответы на
+                                вопросы как будет проходить твоя жизнь в деталях и все ситуации на протяжении следующих
+                                50 лет. Работа со мной - по запросу, по необходимости получить подсказки, направление,
+                                ясность, понимание, чтобы принять лучшее решение в дальнейшей своей судьбе.</p>
+
+                            <p class="wow fadeInUp" data-wow-duration="0.7s">Я знаю, что у каждого есть моменты, когда
+                                ты сомневаешься в выборе, не понимаешь, что происходит в твоей жизни, куда двигаться,
+                                есть ли шанс быть с партнёром, к чему это всё приведёт и так далее. Я, для того, чтобы
+                                тебе подсказать и ответить на все твои вопросы) при этом выбор - всегда за тобой. Если
+                                ты чувствуешь, что этот период именно сейчас - пиши мне)</p>
+
+                            <p class="wow fadeInUp" data-wow-duration="0.7s">Мой дар направлен на помощь людям.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cons wow fadeInUp" data-wow-duration="0.7s">
+                    <div class="about-left">
+                        <p class="about-left__title">Нужна <span>консультация?</span></p>
+                        <p class="about-left__desc">Пишите мне или оставьте заявку</p>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-links">
+                            <p class="header-links__text">Пишите мне</p>
+                            <a href="" class="header-links__link"><img src="img/instagram.svg" alt="Инстаграм"
+                                    class="header-links__img"></a>
+                            <a href="" class="header-links__link"><img src="img/telegram.svg" alt="Телеграм"
+                                    class="header-links__img"></a>
+                        </div>
+                        <button class="header-btn btn inline">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cons page">
+            <div class="wrapper">
+                <div class="cons-content">
+                    <div class="cons-item">
+                        <p class="cons-title title wow fadeInLeft" data-wow-duration="0.7s">Как проходит консультация?
+                        </p>
+                        <p class="cons-desc wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s">Консультация:
+                            это не поход к «гадалке», это что-то большое и глубинное. Мне ценно, чтобы каждый получил
+                            понимание дальнейших действий и ответы на все вопросы. Консультация проходит в онлайн режиме
+                            по видео связи, твой запрос/вопросы.</p>
+                    </div>
+                    <img src="img/consult.png" alt="Консультация" class=" wow fadeIn" data-wow-duration="1.5s"
+                        data-wow-delay="0.5s">
+                </div>
+
+            </div>
+        </section>
+        <section class="what page">
+            <div class="wrapper">
+                <div class="what-content">
+                    <div class="what-item">
+                        <div class="what-title title wow fadeInLeft" data-wow-duration="0.7s">Что Вы получите?</div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.1s">
+                            <hr class="what-hr">
+                            <p class="what-text">получите ответы на все свои вопросы</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s">
+                            <hr class="what-hr">
+                            <p class="what-text">истинные чувства и намерения партнёра</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                            <hr class="what-hr">
+                            <p class="what-text">какой урок вы проходишь в этих отношениях</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                            <hr class="what-hr">
+                            <p class="what-text">почему не получается забеременеть</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.9s">
+                            <hr class="what-hr">
+                            <p class="what-text">почему и что делать, если отношения не складываются</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="1.1s">
+                            <hr class="what-hr">
+                            <p class="what-text">почему и как решить проблему с финансами</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="1.3s">
+                            <hr class="what-hr">
+                            <p class="what-text">менять/не менять сферу деятельности</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="1.5s">
+                            <hr class="what-hr">
+                            <p class="what-text">какие перспективы ждут на этом месте</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="1.7s">
+                            <hr class="what-hr">
+                            <p class="what-text">что Вы транслируете в окружении</p>
+                        </div>
+                        <div class="what-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="1.9s">
+                            <hr class="what-hr">
+                            <p class="what-text">почему и как решить проблемы со здоровьем</p>
+                        </div>
+                    </div>
+                    <form action="send.php" method="POST" class="what-form wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.4s">
+                        <p class="what-form__title">Оставьте заявку сейчас</p>
+                        <p class="what-form__desc">и получите <span>скидку 35%</span> на консультацию</p>
+                        <input type="text" name="name" id="name" class="what-form__inp input" placeholder="Ваше имя" required>
+                        <input type="tel" name="phone" id="phone" class="what-form__inp input" placeholder="+38(___)___-__-__" required>
+                        <div class="form-bottom">
+                            <input type="submit" value="Отправить" class="form-btn btn">
+                            <p class="form-pol">Нажимая кнопку “Отправить” я даю согласие на обработку моих
+                                персональных данных</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="otz page">
+            <div class="wrapper">
+                <p class="otz-title title wow fadeInLeft" data-wow-duration="0.7s">Отзывы</p>
+                <div class="swiper wow fadeIn" data-wow-duration="0.7s">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                      <div class="swiper-slide"><img src="img/otz-1.png" alt="Отзыв" class="otz-img"></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+            </div>
+        </section>
+        <section class="curs page">
+            <div class="wrapper">
+                <div class="curs-content wow fadeIn" data-wow-duration="0.7s">
+                    <div class="curs-item">
+                        <p class="curs-title wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.5s">Курс "Лепесток <span>жизни</span>"</p>
+                        <p class="curs-desc wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.8s">Что Вы можете получить после покупки курса:</p>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="1.1s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">улучшить все сферы жизни</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="1.3s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">отпустить прошлое</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="1.5s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">научитесь говорить “нет”</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="1.7s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">научитесь озвучивать свои желания</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="1.9s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">выбирать себя</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="2.2s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">принимать отказы в жизни (без боли)</p>
+                        </div>
+                        <div class="curs-flex wow fadeIn" data-wow-duration="0.7s" data-wow-delay="2.5s">
+                            <hr class="curs-hr">
+                            <p class="curs-text">многое другое</p>
+                        </div>
+                    </div>
+                    <div class="curs-item">
+                        <div class="curs-block wow bounceIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                            <p class="curs-block__title">Базовый</p>
+                            <p class="curs-block__desc">Включает полный доступ к курсу на <span>2 недели</span></p>
+                            <div class="curs-price">
+                                <p class="curs-price__old">88 $</p>
+                                <p class="curs-price__new">46 $</p>
+                            </div>
+                            <div class="curs-bt">
+                                <button class="curs-btn btn">Купить</button>
+                            </div>
+                        </div>
+                        <div class="curs-block wow bounceIn" data-wow-duration="0.7s" data-wow-delay="1s">
+                            <p class="curs-block__title">Улучшенный</p>
+                            <p class="curs-block__desc">Включает полный доступ к курсу на <span>3 недели + личная консультация со мной</span></p>
+                            <div class="curs-price">
+                                <p class="curs-price__old">190 $</p>
+                                <p class="curs-price__new">155 $</p>
+                            </div>
+                            <div class="curs-bt">
+                                <button class="curs-btn btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer page">
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="header-top">
+                    <div class="header-logo" onclick="window.location.href= '/';">
+                        <img src="img/logo.png" alt="Логотип" class="header-logo__img">
+                        <div class="header-logo__text">
+                            <p class="header-logo__title">Milena</p>
+                            <p class="header-logo__desc">Духовное наставничество</p>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-links">
+                            <p class="header-links__text">Пишите мне</p>
+                            <a href="" class="header-links__link"><img src="img/instagram.svg" alt="Инстаграм"
+                                    class="header-links__img"></a>
+                            <a href="" class="header-links__link"><img src="img/telegram.svg" alt="Телеграм"
+                                    class="header-links__img"></a>
+                        </div>
+                        <button class="header-btn btn inline">Обратная связь</button>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <a href="/" class="footer-link">Milena-magic.com.ua</a>
+                    <p class="footer-info">Все права защищены | 2022</p>
+                    <a href="#" class="footer-pol">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="inline" style="display:none;">
+        <form action="send.php" method="POST" class="what-form">
+            <p class="what-form__title">Оставьте заявку сейчас</p>
+            <p class="what-form__desc">и получите <span>скидку 35%</span> на консультацию</p>
+            <input type="text" name="name" id="name" class="what-form__inp input" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" id="phone" class="what-form__inp input" placeholder="+38(___)___-__-__" required>
+            <div class="form-bottom">
+                <input type="submit" value="Отправить" class="form-btn btn">
+                <p class="form-pol">Нажимая кнопку “Отправить” я даю согласие на обработку моих персональных данных</p>
+            </div>
+        </form>
+    </div>
+    <div id="curs" style="display:none;">
+        <form action="send.php" method="POST" class="what-form">
+            <p class="what-form__title">Тариф "базовый"</p>
+            <p class="what-form__desc">Оставьте заявку на покупку курса</p>
+            <input type="text" name="name" id="name" class="what-form__inp input" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" id="phone" class="what-form__inp input" placeholder="+38(___)___-__-__" required>
+            <div class="form-bottom">
+                <input type="submit" value="Отправить" class="form-btn btn">
+                <p class="form-pol">Нажимая кнопку “Отправить” я даю согласие на обработку моих персональных данных</p>
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/modaal.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        $('.inline').modaal({
+            content_source: '#inline'
+        });
+        $('.curs-btn').modaal({
+            content_source: '#curs'
+        });
+        new WOW().init({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 1,
+            mobile: false,
+            live: true
+        });
+    </script>
+
+    <script>
+          const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    autoHeight: true,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+});
+  
+    </script>
+</body>
+
+</html>
